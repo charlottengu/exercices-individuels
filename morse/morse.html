@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+  <h1>Traduction morse</h1>
+  <input type="text" id="toTranslate" name="name" 
+       minlength="0" maxlength="100" size="10">
+  <button onclick="encode(toTranslate.value)">Traduire en morse</button>
+  <button onclick="decode(toTranslate.value)">Traduire en latin</button>
+  <br>
+  <p id="traduction"></p>
+  <script src="js/script.js"></script>
+</body>
+</html>
