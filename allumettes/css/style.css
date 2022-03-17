@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+    margin-top:180px;
+    background-image: url('allumette.png');
+    background-size: 24%;
+}
+
+#cadre {
+    text-align:center;
+    background-color: white;
+    width:400px;
+    height:240px;
+    margin:auto;
+    border-radius: 10px;
+}
+
+h2 {padding-top: 25px;}
